@@ -1,0 +1,101 @@
+# Konsep OOP (Object-Oriented Programming) di TypeScript,
+  yaitu gaya atau filosofi dalam pemrograman yang berorientasi objek.
+
+# Konsep Dasar OOP (Object-Oriented Programming) :
+  1.  Class & Object
+      - Class       : Blueprint atau wadah untuk membuat Object.
+      - Object      : Instansi dalam sebuah Class.
+
+  2.  Inheritance   : Mekanisme sebuah Class child mewarisi properties & methods dari Class parent
+                      Bisanya menggunakan kode "extends".
+
+  3.  Encapsulation : Membungkus properties dan methods dalam Class
+                      dan menyembunyikan implementasi dari internalnya (bersifat private/protected)
+                      Bisanya menggunakan kode "implements".
+
+  4.  Abstraction   : Memfokuskan pada aspek-aspek penting dari Object,
+                      sambil menyembunyikan detail implementasi yang tidak relevan.
+                      Bisanya menggunakan kode "interface" dihubungkan oleh kode "implements".
+
+  5. Polymorphism   : Kemampuan Objek dari Class yang berbeda
+                      untuk merespons pesan yang sama dengan cara yang berbeda.
+
+# Inheritance :
+  - Tujuan
+    a.  Reusability.
+        Kita tidak perlu menulis ulang kode yang sama untuk Class yang memiliki kesamaan.
+
+    b.  Hierarki.
+        Membentuk hierarki Class yang menunjukkan saling mewarisi bentuk aslinya.
+        Misalnya, "Kambing adalah Hewan".
+
+  - Manfaat
+    a.  Mengurangi duplikasi kode:
+        Kita dapat menghindari penulisan ulang kode yang sama di berbagai Class.
+
+    b.  Meningkatkan modularitas:
+        Kode menjadi lebih terorganisir dan mudah dikelola.
+
+    c.  Memudahkan pemeliharaan:
+        Perubahan pada Class induk (parent) akan otomatis berlaku pada semua Class anak (child).
+
+# Encapsulation :
+  - Tujuan
+    a.  Keamanan Data.
+        Mencegah akses dan modifikasi yang tidak sah terhadap data tersebut.
+
+    b.  Modularitas.
+        Kode menjadi lebih terorganisir dan mudah dikelola.
+
+    c.  Reusability.
+        Kita tidak perlu menulis ulang kode yang sama untuk Class yang memiliki kesamaan.
+
+  - Manfaat
+    a.  Mengurangi duplikasi kode:
+        Kita dapat menghindari penulisan ulang kode yang sama di berbagai Class.
+
+    b.  Meningkatkan modularitas:
+        Kode menjadi lebih terorganisir dan mudah dikelola.
+
+# Abstraction :
+  - Tujuan
+    a.  Sederhana.
+        Abstraksi membuat kode menjadi lebih sederhana
+        dan mudah dipahami dengan menghilangkan detail yang tidak perlu.
+
+    b.  Fleksibilitas.
+        Perubahan pada implementasi internal suatu objek
+        tidak akan berdampak pada bagian lain dari program yang menggunakan objek tersebut,
+        selama interface publiknya tetap sama.
+
+    c.  Reusability.
+        Kita tidak perlu menulis ulang kode yang sama untuk Class yang memiliki kesamaan.
+
+  - Manfaat
+    a.  Abstraksi Tingkat Tinggi.
+        Fokus pada pemecahan masalah bisnis daripada detail teknis implementasi.
+
+    b.  Kolaborasi.
+        Pemahaman yang sama dari setiap anggota tim tentang sistem
+        meskipun memiliki latar belakang teknis yang berbeda.
+
+# Polymorphism :
+  - Tujuan
+    a.  Fleksibelitas.
+        Kode yang lebih dinamis dapat beradaptasi dengan perubahan.
+
+    b.  Reusability.
+        Kita tidak perlu menulis ulang kode yang sama untuk Class yang memiliki kesamaan.
+
+    c.  Ekstensibilitas:
+        Kita dapat dengan mudah menambahkan Class baru yang mewarisi dari Class yang sudah ada,
+        tanpa perlu mengubah kode yang sudah ada.
+
+  - Manfaat
+    a.  Meningkatkan reusability kode:
+        Kita dapat menggunakan kembali kode yang sama untuk berbagai jenis objek,
+        sehingga mengurangi duplikasi kode.
+
+    b.  Membuat kode lebih mudah dipahami: 
+        Membantu membuat kode lebih mudah dibaca dan dipahami
+        karena fokus pada perilaku umum daripada detail implementasi.
